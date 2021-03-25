@@ -1,0 +1,106 @@
+/* Frontend slider CSS */
+/* RESET ************************************************/
+*{
+	box-sizing:border-box;
+	margin:0;}
+	
+/* Osnovno uredivanje Html-a ****************************/
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: left;}
+h1{
+	font-size:32px;
+	color:#134880;
+	line-height:40px;
+	margin-bottom:20px;}
+img{
+	position:absolute;
+	border-radius:5px;}
+
+/* Layout ***********************************************/
+.wrapper{
+	max-width:940px;
+	margin:0 auto;}
+.clearfix:after{
+	content:" ";
+	display:block;
+	clear:both;}
+#sivapozadina{
+	height:100px;
+	width:300px;
+	background: #DDDDDD;
+	float:left;
+	border-radius:5px;
+	margin-bottom:60px;}
+#sivapozadina2{
+	float:right;
+	height:100px;
+	width:620px;
+	margin-left:20px;
+	background:#DDDDDD;
+	border-radius:5px;}
+#sivapozadina2 p{
+	font-family: HelveticaNeue;
+	font-size: 15px;
+	text-align: left;
+	margin:39px 296px 43px 80px;
+	color:white;}
+#sivapozadina3{
+	height:100px;
+	width:940px;
+	background:#DDDDDD;
+	margin-top:175px;
+	border-radius:5px;}
+#sivapozadina3 p{
+	font-family: HelveticaNeue;
+	font-size: 15px;
+	text-align: left;
+	padding:42px 615px 40px 81px;
+	color:white;}
+#prvi{
+	float:left;
+	width:66%;}
+#drugi{
+	margin-left:2%;
+	float:right;
+	width:32%;}
+#prvired img:first-of-type{
+	left:-120px;}
+#prvired img:nth-of-type(2){
+	left:110px;}
+#prvired img:nth-of-type(3){
+	left:300px;}
+#prvired img:nth-of-type(4){
+	left:430px;}
+#prvired img:nth-of-type(5){
+	left:660px;}
+#prvired img:last-of-type{
+	left:850px;}
+#drugired img{
+	top:370px;}
+#drugired img:first-of-type{
+	left:-140px;}
+#drugired img:nth-of-type(2){
+	left:130px;}
+#drugired img:nth-of-type(3){
+	left:360px;}
+#drugired img:nth-of-type(4){
+	left:630px;}
+#drugired img:nth-of-type(5){
+	left:760px;}
+#drugired img:nth-of-type(6){
+	left:1058px;
+	border:1px solid #DDDDDD;
+	padding:20px 20px;}
+#drugired img:last-of-type{
+	top:444px;
+	left:1058px;
+	border:1px solid #134880;
+	padding:20px 20px;}
+
+
+
+
+
